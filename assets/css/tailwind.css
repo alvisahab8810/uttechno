@@ -2298,9 +2298,9 @@ video {
 .bg-white\/10{
   background-color: rgb(255 255 255 / 0.1) !important;
 }
-.bg-white\/30{
+/*.bg-white\/30{
   background-color: rgb(255 255 255 / 0.3) !important;
-}
+}*/
 .bg-white\/5{
   background-color: rgb(255 255 255 / 0.05) !important;
 }
@@ -3732,13 +3732,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   top: 0px;
   z-index: 999;
   border-width: 0px;
-  background-color: transparent;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 500ms;
-          transition-duration: 500ms;
+  transition-duration: 500ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 #topnav .logo{
   --tw-text-opacity: 1 !important;
