@@ -3236,6 +3236,7 @@ video {
 }
 .font-medium{
   font-weight: 500 !important;
+  padding: 5px;
 }
 .font-normal{
   font-weight: 400 !important;
@@ -8031,7 +8032,7 @@ html[dir=rtl] .tns-visually-hidden {
     margin-top: 4rem !important;
   }
   .md\:mt-24{
-    margin-top: 6rem !important;
+    /* margin-top: 6rem !important; */
   }
   .md\:mt-36{
     margin-top: 9rem !important;
@@ -8261,7 +8262,7 @@ html[dir=rtl] .tns-visually-hidden {
     padding-bottom: 0px !important;
   }
   .md\:py-24{
-    padding-top: 6rem !important;
+    padding-top: 2rem !important;
     padding-bottom: 6rem !important;
   }
   .md\:py-36{
@@ -9129,4 +9130,70 @@ html[dir=rtl] .tns-visually-hidden {
   100% {
     opacity: 0;
   }
+}
+
+.bx4{
+  display: flex;
+  justify-content: space-between;
+  padding: 31px;
+  flex-wrap: wrap;
+}
+
+.bx4 > div{
+  width: calc(25% - 10px);
+  box-shadow: rgb(0 0 0 / 19%) 0px 5px 15px;
+}
+.address{
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.bx{
+  padding-top: 0;
+}
+
+.bx4 > div img{
+  width: 100%;
+  object-fit: cover;
+}
+@media(max-width:900px){
+  .bx4 > div{
+    width: 50%;
+    margin-top: 15px;
+
+  }
+  .call-us {
+    padding: 7px 13px;
+    background: #4f46e5;
+    color: white;
+    position: fixed;
+    border-radius: 4px;
+    left: 10px;
+    bottom: 166px;
+    display: inherit;
+}
+
+.btn-whatsapp-pulse {
+   
+    position: fixed;
+    bottom: 198px;
+    right: 11px;
+    z-index: 10000;
+   
+}
+}
+
+@media(max-width:540px){
+  .bx4 > div{
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+.hero-section{
+  margin-top: 100px;
+}
+.margin-top{
+  margin-top: 72px;
+  background-attachment: fixed;
+}
+.mb{
 }
